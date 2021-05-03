@@ -1,0 +1,1 @@
+update enrollments set year = 2015 where id<=100 and id>=20 

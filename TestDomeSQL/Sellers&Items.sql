@@ -1,0 +1,1 @@
+select i.name, s.name from sellers s, items i where s.id = i.sellerId and s.rating>4

@@ -2,10 +2,8 @@ package userInput;
 
 public class UserInput {
     
-    public static class TextInput {
-    	
+    public static class TextInput {    	
     	String value = "";
-    	
     	public void add(char c) {
     		this.value = this.value+c;
     	}
@@ -17,9 +15,7 @@ public class UserInput {
 
     public static class NumericInput extends TextInput{
     	String value = ""; 
-    			
     	public void add(char i) {
-    		System.out.println((int)i);
     		if (i <=57 && i>=48) {
     			value = value+i;
     		}
